@@ -1,0 +1,24 @@
+input{
+  font-size:30px;
+  display:block;
+  margin-bottom: 10px;
+}
+button{
+  display:inline;
+  height: 40px;
+  width: 40px;
+}
+
+.tatedayo{
+  position: relative;
+  left:140px;
+  top:-160px;
+}
+.tatedayo button{
+  display: flex;
+}
+
+.tumekomi{
+  position: relative;
+  top:-150px;
+}

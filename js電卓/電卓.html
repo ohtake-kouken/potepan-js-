@@ -1,0 +1,35 @@
+<!DOCTYPE html><meta charset="UTF-8">
+<link rel="stylesheet" href="ren2.css">
+<script src="jquery-3.5.1.min.js"></script>
+<html>
+<body>
+    <input/>   <!-- inputパネル -->
+    <button onclick="append( '1' )" >1</button>       <!-- 1と２はやり同じ -->
+    <button onclick="document.querySelector( 'input' ).value += '2' " >2</button>
+    <button onclick="append( '3' )" >3</button>
+    <br>
+    <button onclick="append( '4' )" >4</button>
+    <button onclick="append( '5' )" >5</button>
+    <button onclick="append( '6' )" >6</button>
+    <br>
+    <button onclick="append( '7' )" >7</button>
+    <button onclick="append( '8' )" >8</button>
+    <button onclick="append( '9' )" >9</button>
+    <br>
+    <button onclick="append( '0' )" >0</button>
+    <button onclick="append( '00' )" >00</button>
+    <button onclick="append1( '.' )" >.</button>
+    <div class="tatedayo">
+    <button onclick="append1( '+' )" >+</button>
+    <button onclick="append1( '-' )" >-</button>
+    <button onclick="append1( '*' )" >*</button>
+    <button onclick="append1( '/' )" >/</button>
+  </div>
+  <div class="tumekomi">
+    <button onclick="update( '' ) " style="width:7.2%;" >AC</button>  <!--空白はリセット-->
+
+    <button onclick="calc()" style="width:7.2%;" >=</button>
+  </div>
+    <script src="ren2.js"></script>
+</body>
+</html>
